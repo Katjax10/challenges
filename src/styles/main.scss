@@ -1,0 +1,57 @@
+@import 'base';
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#top-vp {
+  border: none;
+  text-align: center;
+  font-size: 32px;
+  background-color: white;
+}
+
+.normal {
+  padding: 5px 15px;
+  background-color: lightgreen;
+  color: black;
+  margin: 5px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+.warning {
+  padding: 5px 15px;
+  color: black;
+  border: 1px solid black;
+  margin: 5px;
+  text-align: left;
+  background-color: #fdff76;
+}
+
+.reps {
+  font-size: 18px;
+}
+
+.critical {
+  padding: 5px 15px;
+  background-color: lightcoral;
+  color: black;
+  text-align: left;
+  margin: 5px;
+  border: 1px solid black;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
